@@ -64,7 +64,7 @@ function App() {
       const extractResponse = await axios.get('https://article-extractor-and-summarizer.p.rapidapi.com/extract', {
         params: { url },
         headers: {
-          'X-RapidAPI-Key': 'a3247c6957msh1b3ed015d5d6129p130ddfjsn0ce89eb58c9f',
+          'X-RapidAPI-Key': 'yourapikey',
           'X-RapidAPI-Host': 'article-extractor-and-summarizer.p.rapidapi.com'
         }
       });
